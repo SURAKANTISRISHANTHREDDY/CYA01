@@ -2,33 +2,29 @@
 
 ## Chosen Adventure
 
-Participation in **CrimsonCode 2026**, a 24-hour hackathon hosted at Washington State University, as a co-developer of **HealthCam** — a contactless, real-time health monitoring iOS prototype powered by smartphone camera biometrics and a conversational AI voice interface.
+Participation in **CrimsonCode 2026**, a 24 hour hackathon hosted at Washington State University, as a co-developer of **HealthCam** — a contactless, real-time health monitoring iOS prototype powered by smartphone camera biometrics and a conversational AI voice interface.
 
 The project repository is available here: [github.com/1paramveer/crimson-code-26](https://github.com/1paramveer/crimson-code-26.git)
 
 ---
-
 ## Career Goals
-
-**Short-term:** Build practical experience applying machine learning and signal processing concepts to real-world systems, while developing the software engineering skills needed to work in applied AI/data science roles.
-
-**Long-term:** Work as a data scientist or ML engineer, ideally at the intersection of human-centered AI and healthcare or physiological computing — building systems that extract meaningful insights from sensor data and translate them into actionable, intelligent interfaces.
-
+ 
+**Short-term:** Develop practical experience applying machine learning and signal processing to real world systems, while building the software engineering foundations needed for applied AI and data science roles.
+ 
+**Long-term:** Work as a data scientist or ML engineer on systems that process real world sensor data and connect it to intelligent, human facing outputs, particularly at the intersection of health technology and AI.
+ 
 ---
-
-## Deliverable Summary
-
-**HealthCam** is an experimental iOS prototype that explores using a smartphone's front-facing camera to perform remote photoplethysmography (rPPG) — estimating heart activity and breathing patterns from subtle skin-color changes captured on video. The system pairs this biometric sensing layer with an ElevenLabs-powered conversational voice agent that responds to the user's physiological state in real time, providing spoken de-escalation guidance without requiring any wearables or external hardware.
-
-The app was built in 6 hours during CrimsonCode 2026 as a 3-person team project.
-
-My individual contributions centered on the **system integration layer**:
-
-- Coordinating the biometric data pipeline with the core application logic
-- Implementing lifecycle safeguards so that downstream features (including the voice agent) only activate once the rPPG signal reaches a reliable, calibrated state
-- Supporting the integration of the ElevenLabs conversational component with the physiological monitoring flow
-- Stabilizing the demo under time-pressure hackathon conditions through testing and rapid debugging
-
+ 
+## Adventure Description
+ 
+While HealthCam demonstrated a working concept at the hackathon — using the iPhone's frontfacing camera to estimate pulse and breathing rate via rPPG, paired with an ElevenLabs conversational voice agent the codebase built under a 6-hour time constraint was tightly coupled, undocumented, and difficult to extend.
+ 
+For this CYA adventure, I spent time outside the original hackathon window individually refining the project with the goal of closing the gap between a rough prototype and something closer to a professional, reproducible system. Work included:
+ 
+- **Refactoring the signal processing logic** — decoupling the biometric data processing layer from the application lifecycle management layer for improved modularity and maintainability
+- **Improving camera feed error handling** — implementing resilient input validation so that poor lighting or obstruction produces a clean error state rather than garbage data reaching the AI inference layer
+- **Writing technical documentation** — adding inline documentation and a structured README so the project can realistically be understood and built upon by other contributors
+ 
 ---
 
 ## Deliverable Assets
