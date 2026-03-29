@@ -31,6 +31,22 @@ For this CYA adventure, I spent time outside the original hackathon window indiv
  
 ---
 
+## My Contributions (Explicit)
+
+- Refactored biometric signal processing pipeline for modularity
+- Implemented validation checks for camera input reliability
+- Integrated AI response system with processed biometric outputs
+- Improved system stability under real-time constraints
+- Added documentation for maintainability
+
+---
+## Evidence of Work
+
+### Demo Screenshots
+<img width="522" height="1126" alt="image" src="https://github.com/user-attachments/assets/41f51b9f-de1d-4fd8-8caa-e5ed3ce817db" />
+<img width="526" height="1130" alt="image" src="https://github.com/user-attachments/assets/724676f4-f3f1-4402-bf6d-3c8d1305045e" />
+
+---
 ## Deliverable Assets
 
 - **Project repo:** [github.com/1paramveer/crimson-code-26](https://github.com/1paramveer/crimson-code-26)
