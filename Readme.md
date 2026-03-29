@@ -34,4 +34,4 @@ My individual contributions centered on the **system integration layer**:
 ## Deliverable Assets
 
 - **Project repo:** [github.com/1paramveer/crimson-code-26](https://github.com/1paramveer/crimson-code-26)
-- **Reflection:** See [REFLECTION.md](./Reflection.md)
+- **Reflection:** See [Reflection.md](./Reflection.md)
