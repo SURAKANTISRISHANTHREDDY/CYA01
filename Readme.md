@@ -34,5 +34,4 @@ My individual contributions centered on the **system integration layer**:
 ## Deliverable Assets
 
 - **Project repo:** [github.com/1paramveer/crimson-code-26](https://github.com/1paramveer/crimson-code-26)
-- **Devpost submission:** [devpost.com/software/health-cam](https://devpost.com/software/health-cam)
-- **Reflection:** See [REFLECTION.md](./REFLECTION.md)
+- **Reflection:** See [REFLECTION.md](./Reflection.md)
