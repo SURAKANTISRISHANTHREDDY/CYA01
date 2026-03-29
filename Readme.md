@@ -1,5 +1,9 @@
 # CYA-01: Career Development Experience
 
+## Deliverable Summary
+This repository documents my contribution to the HealthCam project, including system integration improvements, refactoring of signal processing logic, and enhancements to system reliability beyond the initial hackathon prototype.
+
+---
 ## Chosen Adventure
 
 Participation in **CrimsonCode 2026**, a 24 hour hackathon hosted at Washington State University, as a co-developer of **HealthCam** — a contactless, real-time health monitoring iOS prototype powered by smartphone camera biometrics and a conversational AI voice interface.
