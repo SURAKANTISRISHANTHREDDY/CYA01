@@ -4,7 +4,7 @@
 
 Participation in **CrimsonCode 2026**, a 24-hour hackathon hosted at Washington State University, as a co-developer of **HealthCam** — a contactless, real-time health monitoring iOS prototype powered by smartphone camera biometrics and a conversational AI voice interface.
 
-The project repository is available here: [github.com/1paramveer/crimson-code-26](https://github.com/1paramveer/crimson-code-26)
+The project repository is available here: [github.com/1paramveer/crimson-code-26](https://github.com/1paramveer/crimson-code-26.git)
 
 ---
 
