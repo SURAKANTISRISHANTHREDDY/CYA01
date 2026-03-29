@@ -33,9 +33,7 @@ For this CYA adventure, I spent time outside the original hackathon window indiv
 
 ## My Contributions (Explicit)
 
-- Refactored biometric signal processing pipeline for modularity
 - Implemented validation checks for camera input reliability
-- Integrated AI response system with processed biometric outputs
 - Improved system stability under real-time constraints
 - Added documentation for maintainability
 
