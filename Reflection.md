@@ -1,18 +1,18 @@
-##Reflection CYA 01
-Srishanth Surakanti | CrimsonCode 2026 | HealthCam
+#Reflection CYA 01
+**Srishanth Surakanti | CrimsonCode 2026 | HealthCam**
 
 
 ---
 
-
 ##Activity Description
+
 For "Choose Your Own Adventure," I chose to refine and document HealthCam, a project initially conceived during the CrimsonCode 2026 Hackathon. While the original prototype demonstrated a working concept contactless biometric monitoring via smartphone camera and a conversational AI voice interface  the hackathon context meant the codebase lacked structure, documentation, and maintainability. The goal of this adventure was to close the gap between a rough hack and something closer to a professional, reproducible project. I spent time outside the original hackathon window refactoring the signal processing logic, improving code organization, and writing technical documentation so that the project could realistically be built upon by other contributors.
 
 
 ---
 
-
 ##Technical and Professional Decisions
+
 A key technical decision I made was to emphasize modularity in the biometric processing logic. During the hackathon, signal extraction and application control flow were tightly coupled in a way that made the code brittle and hard to reason about. I chose to separate the data processing layer from the application lifecycle management layer a decision rooted in my understanding that a system's long term value depends on how maintainable it is, not just whether it runs at demo time.
 I also implemented more resilient handling for the camera feed so that degraded input conditions poor lighting, camera obstruction produce a clean error state rather than silent failure or garbage output. This kind of defensive design is especially important in a system where downstream AI components interpret physiological signals; bad input should never reach the inference layer unchecked.
 On the professional side, I made the deliberate choice to keep the repository public and document it thoroughly, both as a commitment to open source principles and as a verifiable artifact I can point to when applying for data science and ML roles.
@@ -20,18 +20,18 @@ On the professional side, I made the deliberate choice to keep the repository pu
 
 ---
 
-
 ##Contributions
+
 While HealthCam was originally a three person team project built during CrimsonCode, the work completed for this CYA assignment was done individually. I took full ownership of the post hackathon refactoring, documentation, and architectural improvements described above. This solo phase gave me a different kind of experience than the hackathon itself less about speed and coordination, and more about thinking carefully through design decisions without the pressure of a countdown timer.
 
 ---
 
-
 ##Quality Assessment
+
 I would rate my performance on this refinement as proficient, with clear room to improve. The main signal processing logic is also much more stable and readable than what we presented at the hackathon. With that said, given the same experience, I would spend more time on the initial mapping of the entire data flow prior to code writing. There were some times when I had to reverse on decisions I made at the early stages of the structure and found that the decision was causing friction down the line. That would have been avoided by having a clearer technical design document at the beginning. It is the second habit that I want to implement in my working process.
 
 ---
 
-
 ##Career Alignment
+
 This experience aligns directly with my goal of working as a data scientist or ML engineer, particularly on systems that process real world sensor data and connect it to intelligent, human facing outputs. Refining HealthCam gave me hands on practice with the full arc of applied ML work: not just building something that runs, but making it robust, documented, and reproducible the standard that actually matters in professional and research environments. It also clarified something about where my interests sit: I am as engaged by the reliability and integrity of a data pipeline as I am by the modeling layer itself, which points me toward roles where both matter.
